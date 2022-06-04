@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "utf-8">
+<title> Vivo Canada </title>
+<link rel="stylesheet" href="AssessmentFormStyle.css">
+
+</head>
+<body>
+
+<div class = "language">
+	<label text-align = "right"> Français </label>
+	<input text-align = "right" type="radio" id="French" name="language_select" value="Yes" onchange = "changeLanguage();">
+	<label text-align = "right" > English </label>
+	<input text-align = "right" type="radio" id="English" name="language_select" value="No" onchange = "changeLanguage();" checked>
+</div>
+<br>
+
+<div id = "main_menu">
+	<nav>
+		<ul>
+			<li> <a href = "/en/home"> Home </a> </li>
+				<li> <a href = "/en/assessment"> Services </a>
+					<ul>
+						<li> <a href = "/en/temporary_entry"> Temporary Entry </a> </li>
+						<li> <a href = "/en/permanent_residency"> Permanent Residency </a> </li>
+					</ul>
+				</li>
+			<li> <a href = "/en/assessment"> Take a Free Assessment </a> </li>
+			<li> <a href = "/en/about"> About Us </a> </li>
+		</ul>
+	</nav>
+</div>
+
+<img class = "logo" src= "VivoCanadaLogoEng.jpg">
+
+<br>
+<h1> Preliminary Assessment Form </h1>
+<br>
+<label> First Name: </label>
+<input type = "text" id = "firstname">
+<label class = "namelabel"> Last Name: </label>
+<input type = "text" id = "lastname" class = "info">
+<label class = "namelabel"> Country of Citizenship/Residence: </label>
+<input type = "text" id = "country" class = "national">
+<br> <br>
+<label> Age: </label>
+<input type="number" id="agenum" min="18" max="100">
+<label class = "namelabel"> Email Address: </label>
+<input type = "text" id = "emailaddress">
+<label class = "namelabel" for="education"> Highest Education Level:</label>
+<input type = "text" id = "degree" class = "diploma">
+<br> <br>
+<label for="marriage"> Marital Status:</label>
+<select name="marriage_status" id="marriage">
+  <option value="single">Single</option>
+  <option value="commonlaw">Common Law Partner</option>
+  <option value="married">Married</option>
+  <option value="separated">Separated</option>
+  <option value="divorced">Divorced</option>
+</select>
+<label class = "namelabel"> Age of Spouse (if applicable): </label>
+<input type="number" id="spouseagenum" min="18" max="100">
+<label class = "namelabel" for="education"> Highest Education Level of your Spouse (if applicable):</label>
+<input type = "text" id = "spouse_degree" class = "spouse_diploma">
+<br> <br>
+<label> Do you have any children under the age of 22? </label>
+<label>Yes</label>
+<input type="radio" id="yeschild" name="children" value="Yes">
+<label>No</label>
+<input type="radio" id="nochild" name="children" value="No" checked>
+<br> <br>
+<label for="english"> Your language skills in English:</label>
+<select name="english_skills" id="english">
+  <option value="None">None</option>
+  <option value="Weak">Weak</option>
+  <option value="Average">Average</option>
+  <option value="Good">Good</option>
+</select>
+<label class = "namelabel" for="english"> Your language skills in French:</label>
+<select name="french_skills" id="french">
+  <option value="None">None</option>
+  <option value="Weak">Weak</option>
+  <option value="Average">Average</option>
+  <option value="Good">Good</option>
+</select>
+<label class = "namelabel"> In the past two years, did you sit in an English and/or French test? </label>
+<label>Yes</label>
+<input type="radio" id="yestest" name="test" value="Yes">
+<label>No</label>
+<input type="radio" id="notest" name="test" value="No" checked>
+<br> <br>
+<label> Have you had paid work experience in the past 10 years? </label>
+<label>Yes</label>
+<input type="radio" id="yesjob" name="workexperience" value="Yes" checked>
+<label>No</label>
+<input type="radio" id="nojob" name="workexperience" value="No">
+<br> <br>
+<label> Current Job Title: </label>
+<input type = "text" id = "jobtitle">
+<label class = "namelabel"> How many years in position? </label>
+<input type="number" id="workyears" min="1" max="30">
+<label class = "namelabel"> Do you own shares in a business? </label>
+<label>Yes</label>
+<input type="radio" id="yesshare" name="share" value="Yes">
+<label>No</label>
+<input type="radio" id="noshare" name="share" value="No" checked>
+<br> <br>
+<label> Do you or your spouse have a criminal record (arrested, charged, or convicted)? </label>
+<label>Yes</label>
+<input type="radio" id="yescrime" name="criminalrecord" value="Yes">
+<label>No</label>
+<input type="radio" id="nocrime" name="criminalrecord" value="No" checked>
+<br> <br>
+<label> Have you or your spouse ever had a serious medical condition? </label>
+<label>Yes</label>
+<input type="radio" id="yesmedical" name="medicalcondition" value="Yes">
+<label>No</label>
+<input type="radio" id="nomedical" name="medicalcondition" value="No" checked>
+<br> <br>
+<label> Have you ever visited/studied/worked in Canada? </label>
+<label>Yes</label>
+<input type="radio" id="yesincanada" name="travelcanada" value="Yes">
+<label>No</label>
+<input type="radio" id="noincanada" name="travelcanada" value="No" checked>
+<br> <br>
+<label> Do you have a job offer in Canada? </label>
+<label>Yes</label>
+<input type="radio" id="yesoffer" name="joboffer" value="Yes">
+<label>No</label>
+<input type="radio" id="nooffer" name="joboffer" value="No" checked>
+<br>
+<br>
+<button class = "submit" onclick = "sendInfo();"> Submit </button>
+<br>
+<br>
+
+<div class = "contactinfo">
+	<div class = "contact1">
+		Phone Number: +1-418-227-6939 <br>
+		Address: 1270 Boulevard Dionne, bureau. <br>
+		220, St-Georges (QC) G5Y 3V5
+	</div>
+	<div class = "contact2">
+		<img class = "CICC" src= "CICC_Logo.png">
+		<div> <a href = "https://college-ic.ca/find-a-professional/"> Atieh Bahrami, Verified by CICC </a> </div>
+	</div>
+</div>
+
+<label class = "designer"> © Designed by Abdorrahim Bahrami </label>
+
+<script>
+
+var xhttp;
+
+function changeLanguage()
+{
+	if (document.getElementById("English").checked)
+	{
+		location.replace("/en/assessment")
+	}
+	else if (document.getElementById("French").checked)
+	{
+		location.replace("/fr/assessment")
+	}
+}
+
+function sendInfo()
+{
+	xhttp = new XMLHttpRequest(); // create a new XMLHttpRequest object
+	xhttp.onreadystatechange = finalResponse; // specify what should happen when the server sends a response
+	xhttp.open("POST", "/en/assessment", true); // open a connection to the server using the POST prot
+	
+	let data = "?=&language=English";
+	/*if (document.getElementById("English").checked)
+		data += 'English';
+	else
+		data += 'French';*/
+	data += "&firstname=" + document.getElementById("firstname").value;
+	data += "&lastname=" + document.getElementById("lastname").value;
+	data += "&country=" + document.getElementById("country").value;
+	data += "&age=" + document.getElementById("agenum").value;
+	data += "&email=" + document.getElementById("emailaddress").value;
+	data += "&degree=" + document.getElementById("degree").value;
+	
+	var martial = document.getElementById("marriage").value;
+	data += "&marital=" + martial;
+	if (martial == "married" || martial == "commonlaw")
+	{
+		data += "&spouseage=" + document.getElementById("spouseagenum").value;
+		data += "&spousedegree=" + document.getElementById("spouse_degree").value;
+	}
+	
+	if (document.getElementById("yeschild").checked)
+		data += "&children=" + "Yes";
+	else
+		data += "&children=" + "No";
+		
+	data += "&english=" + document.getElementById("english").value;
+	data += "&french=" + document.getElementById("french").value;
+
+	if (document.getElementById("yestest").checked)
+		data += "&test=" + "Yes";
+	else
+		data += "&test=" + "No";
+	
+	if (document.getElementById("yesjob").checked)
+		data += "&job=" + "Yes";
+	else
+		data += "&job=" + "No";
+		
+	data += "&jobtitle=" + document.getElementById("jobtitle").value;
+	data += "&workyears=" + document.getElementById("workyears").value;
+	
+	if (document.getElementById("yesshare").checked)
+		data += "&share=" + "Yes";
+	else
+		data += "&share=" + "No";
+		
+	if (document.getElementById("yescrime").checked)
+		data += "&crime=" + "Yes";
+	else
+		data += "&crime=" + "No";
+		
+	if (document.getElementById("yesmedical").checked)
+		data += "&medical=" + "Yes";
+	else
+		data += "&medical=" + "No";
+		
+	if (document.getElementById("yesincanada").checked)
+		data += "&incanada=" + "Yes";
+	else
+		data += "&incanada=" + "No";
+		
+	if (document.getElementById("yesoffer").checked)
+		data += "&offer=" + "Yes";
+	else
+		data += "&offer=" + "No";
+		
+	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xhttp.send(data); // send the request to the server
+}
+
+function finalResponse(){
+  //console.log(xhttp.status);
+  if (xhttp.readyState === XMLHttpRequest.DONE) {
+    //let data = xhttp.responseText;  // Data returned by the AJAX request
+    if (xhttp.status === 200)
+	{
+		alert("Your assessment request is sent successfully, we will contact you by email soon."); // print the object, so we can see the fields
+	}
+	else
+	{
+		alert("There is a problem with your assessment request, please try again in a few minutes!");
+	}
+  }
+}
+
+</script>
+
+</body>
+
+</html>

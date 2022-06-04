@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> Vivo Canada </title>
+	<link rel="stylesheet" href="ServicesTEStyle.css">
+</head>
+<body>
+
+<div class = "language">
+	<label text-align = "right"> Français </label>
+	<input text-align = "right" type="radio" id="French" name="language_select" value="Yes" onchange = "changeLanguage();" checked>
+	<label text-align = "right" > English </label>
+	<input text-align = "right" type="radio" id="English" name="language_select" value="No" onchange = "changeLanguage();">
+</div>
+<br>
+
+<div id = "main_menu">
+	<nav>
+		<ul>
+			<li> <a href = "/fr"> Accueil </a> </li>
+				<li> <a href = "/fr/temporary_entry"> Service </a>
+					<ul>
+						<li> <a href = "/fr/temporary_entry"> Résidence temporaire </a> </li>
+						<li> <a href = "/fr/permanent_residency"> Residence Permanente </a> </li>
+					</ul>
+				</li>
+			<li> <a href = "/fr/assessment"> Remplir le formulaire d’évaluation </a> </li>
+			<li> <a href = "/fr/about"> À propos de nous </a> </li>
+		</ul>
+	</nav>
+</div>
+
+<img class = "Spr" src= "ServicesTE.jpg">
+
+<div>
+	<div class = "main_info">
+		<h1> Résidence temporaire </h1>
+		<div class = temp_ent>
+			Que vous ayez décidé d'étudier au Canada, d'acquérir une expérience de travail ou de rendre visite à votre famille et à vos amis et d'explorer ce beau pays,
+			ViVo Canada Services d’Immigration peut vous aider dans le processus de résidence temporaire.
+		</div>
+		<a class = "assess" href="/fr/assessment"> Remplir le formulaire d’évaluation </a>
+
+		<div>
+			<h2> Visa de visiteur </h2>
+			<div class = "v_visa">
+				Vous souhaitez rendre visite à votre famille, vos enfants et petits-enfants, un ami, vous voyagez pour les affaires, vous souhaitez transiter par le Canada ou vous désirez de prolonger votre séjour,
+				ViVo Canada Services d’Immigration vous assiste dans le processus de visa de visiteur.
+			</div>
+		</div>
+
+		<div>
+			<h2> Permis de travail </h2>
+			<div class = "v_visa">
+				Vous êtes un employeur canadien et vous voulez embaucher un travailleur étranger? <br> 
+				Contactez-nous pour s'occuper d’envoyer la demande d’EIMT et le permis de travail.
+				Laissez-nous vous aider afin de vous faire gagner le temps précieux.
+				Vous êtes un travailleur étranger temporaire et vous avez déjà une offre d'emploi valide d'un employeur canadien, ViVo Canada Services d’Immigration vous aide à préparer/envoyer
+				en envoyer votre demande de permis de travail, ou modifier les conditions de votre permis ou prolonger votre séjour en tant qu’un travailleur étranger temporaire. <br>
+				<strong> Veuillez noter que nous ne pouvons pas vous trouver un emploi au Canada. Le cas échéant, contactez-nous uniquement si vous avez une offre d'emploi valide au Canada. </strong>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class = "image_container_frn">
+	<br>
+	<br>
+	<img class = "line_image" src = "Services1.jpg">
+</div>
+
+<div class = "image2_container_frn">
+	<br>
+	<img class = "line_image2" src = "Services2.jpg">
+</div>
+
+<div class = "main_info2">
+	<div>
+		<h2> Permis d’études </h2>
+			<div class = "v_visa">
+				La valeur des diplômes d'études canadiens a motivé de nombreux étudiants étrangers à choisir les collèges et les universités canadiennes pour poursuivre leurs rêves. Que vous ayez besoin de présenter une demande de visa d’études au Canada,
+				de prolonger votre permis d'études ou déterminer la possibilité de travailler pendant vos études ou après avoir obtenu votre diplôme, ViVo Canada Services d’Immigration peut vous aider.
+		</div>
+	</div>
+
+	<div>
+		<h2> Rétablir du statut de résident temporaire </h2>
+		<div class = "v_visa">
+			Vous êtes résident temporaire au Canada et vous avez perdu votre statut ou votre permis de travail ou d'études est expiré? <br>
+			Vous pourrez peut-être rétablir ce statut. Contactez-nous aujourd'hui. Dans ces cas, le temps est précieux et également limité.
+		</div>
+	</div>
+
+	<div>
+		<h2> Vous êtes interdit de territoire au Canada? </h2>
+		<div class = "v_visa">
+			Vous voulez venir au Canada, mais votre demande de visa a été refusée en raison d'une interdiction de territoire pour motifs sanitaires, ou vous êtes interdit de territoire pour motifs de criminalité?
+			Contactez-nous pour consulter vos options.
+		</div>
+	</div>
+
+	<a class = "assess" href="/fr/assessment"> Remplir le formulaire d’évaluation </a>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+
+<br>
+<br>
+
+<div class = "contactinfo">
+	<div class = "contact1">
+		Numéro de téléphone: +1-418-227-6939 <br>
+		Adresse: 1270 Boulevard Dionne, bureau. <br>
+		220, St-Georges (QC) G5Y 3V5
+	</div>
+	<div class = "contact2">
+		<img class = "CICC" src= "CICC_Logo.png">
+		<div> <a href = "https://college-ic.ca/find-a-professional/"> Atieh Bahrami, Vérifié par CCIC </a> </div>
+	</div>
+</div>
+
+<label class = "designer"> © Designed by Abdorrahim Bahrami </label>
+
+<script>
+
+function changeLanguage()
+{
+	if (document.getElementById("English").checked)
+	{
+		location.replace("/en/temporary_entry")
+	}
+	else if (document.getElementById("French").checked)
+	{
+		location.replace("/fr/temporary_entry")
+	}
+}
+
+</script>
+
+</body>
+
+</html>

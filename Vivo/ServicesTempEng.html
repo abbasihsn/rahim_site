@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> Vivo Canada </title>
+	<link rel="stylesheet" href="ServicesTEStyle.css">
+</head>
+<body>
+
+<div class = "language">
+	<label text-align = "right"> Français </label>
+	<input text-align = "right" type="radio" id="French" name="language_select" value="Yes" onchange = "changeLanguage();">
+	<label text-align = "right" > English </label>
+	<input text-align = "right" type="radio" id="English" name="language_select" value="No" onchange = "changeLanguage();" checked>
+</div>
+<br>
+
+<div id = "main_menu">
+	<nav>
+		<ul>
+			<li> <a href = "/en"> Home </a> </li>
+				<li> <a href = "/en/temporary_entry"> Services </a>
+					<ul>
+						<li> <a href = "/en/temporary_entry"> Temporary Entry </a> </li>
+						<li> <a href = "/en/permanent_residency"> Permanent Residency </a> </li>
+					</ul>
+				</li>
+			<li> <a href = "/en/assessment"> Take a Free Assessment </a> </li>
+			<li> <a href = "/en/about"> About Us </a> </li>
+		</ul>
+	</nav>
+</div>
+
+<img class = "Spr" src= "ServicesTE.jpg">
+
+<div>
+	<div class = "main_info">
+		<h1> Temporary Entry </h1>
+		<div class = temp_ent>
+			Whether you have decided to study in Canada, gaining some work experience by joining the Canadian workforce, 
+			or visit family and friends and explore this beautiful country, ViVo Canada Immigration Services can help you with the temporary residence visa(TRV) process
+		</div>
+		<a class = "assess" href="/en/assessment"> Take a free statement </a>
+
+		<div>
+			<h2> Visitor Visa </h2>
+			<div class = "v_visa">
+				You would like to visit your family, children and grandchildren, or a friend, you need to do busines, transit through Canada or you are looking for extending your stay, ViVo Canada Immigration services can help you through the visitor visa process.
+			</div>
+		</div>
+
+		<div>
+			<h2> Work Permit </h2>
+			<div class = "v_visa">
+				You are an employer looking for hiring a foreign national? <br> 
+				The heavy paperwork might seem complicated. Let ViVo Canada Immigration Services do the proper paperwork for you and save you the valuable time.
+				You are a high-skilled worker, low-skilled worker, or a care giver, and you already have a valid job offer from a Canadian employer, 
+				ViVo Canada Immigration Services can help you apply for your work permit, change the conditions on your permit or extend your stay as a worker. <br>
+				<strong> Please be advised that ViVo Canada Immigration Services cannot find you any job in Canada. In this case only contact us if you have a valid job offer. </strong>
+		</div>
+	</div>
+</div>
+
+<div class = "image_container">
+	<br>
+	<br>
+	<img class = "line_image" src = "Services1.jpg">
+</div>
+
+<div class = "image2_container">
+	<br>
+	<img class = "line_image2" src = "Services2.jpg">
+</div>
+
+<div class = "main_info2">
+	<div>
+		<h2> Study Permit </h2>
+		<div class = "v_visa">
+			The value of Canadian education credentials has motivated many foreign students to choose Canadian colleges and universities to pursue their dreams. Whether you need to apply to study in Canada as an international student, extend your study permit, or you need to know about working while you are studying or after you graduate, 
+			ViVo Canada Immigration Services can help you. 
+		</div>
+	</div>
+
+	<div>
+		<h2> Restoration of temporary resident status </h2>
+		<div class = "v_visa">
+			You are a temporary resident and you have lost your status or your authorization to work/study permit expired? <br>
+			You might be able to restore that status. Contact us today. In these cases, time is valuable and indeed limited.
+		</div>
+	</div>
+
+	<div>
+		<h2> Inadmissible to Canada? </h2>
+		<div class = "v_visa">
+			You want to come to Canada, but your application got refused because of medical inadmissibility, or you are inadmissible because of a past criminal activity inside or outside Canada?
+			Contact us to see your options. 
+		</div>
+	</div>
+	<a class = "assess" href="/en/assessment"> Take a free statement </a>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+
+<br>
+<br>
+
+<div class = "contactinfo">
+	<div class = "contact1">
+		Phone Number: +1-418-227-6939 <br>
+		Address: 1270 Boulevard Dionne, bureau. <br>
+		220, St-Georges (QC) G5Y 3V5
+	</div>
+	<div class = "contact2">
+		<img class = "CICC" src= "CICC_Logo.png">
+		<div> <a href = "https://college-ic.ca/find-a-professional/"> Atieh Bahrami, Verified by CICC </a> </div>
+	</div>
+</div>
+
+<label class = "designer"> © Designed by Abdorrahim Bahrami </label>
+
+<script>
+
+function changeLanguage()
+{
+	if (document.getElementById("English").checked)
+	{
+		location.replace("/en/temporary_entry")
+	}
+	else if (document.getElementById("French").checked)
+	{
+		location.replace("/fr/temporary_entry")
+	}
+}
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title> Vivo Canada Immigration </title>
+		<link rel="stylesheet" href="HomeStyle.css">
+	</head>
+	
+	<div class = "language">
+		<label text-align = "right"> Français </label>
+		<input text-align = "right" type="radio" id="French" name="language_Select" value="Yes" onchange = "changeLanguage();" checked>
+		<label text-align = "right" > English </label>
+		<input text-align = "right" type="radio" id="English" name="language_Select" value="No" onchange = "changeLanguage();">
+	</div>
+	<br>
+
+	<body>
+		<div id = "main_menu">
+			<nav>
+				<ul>
+					<li> <a href = "/fr" class = "mitem"> Accueil </a> </li>
+					<li> <a href = "/fr" class = "mitem"> Service </a>
+						<ul>
+							<li> <a href = "/fr/temporary_entry" class = "mitem"> Résidence temporaire </a> </li>
+							<li> <a href = "/fr/permanent_residency" class = "mitem"> Residence Permanente </a> </li>
+						</ul>
+					</li>
+					<li> <a href = "/fr/assessment" class = "mitem"> Remplir le formulaire d’évaluation </a> </li>
+					<li> <a href = "/fr/about" class = "mitem"> À propos de nous </a> </li>
+				</ul>
+			</nav>
+		</div>
+	
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	<!--
+	<div class="slideshow-container">
+
+			<div class="mySlides fade">
+				<img src = "SlideShow1.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+				<img src="SlideShow2.jpg" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+				<img src="SlideShow3.jpg" style="width:100%">
+			</div>
+
+			
+	</div>
+	-->
+		<br>
+		
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span> 
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+		
+		<h1 id = "ServiceHeader" style = "text-align:center"> </h1>
+		<div class = "service_desc" id = "Service">
+		</div>
+		
+		<br>
+		<br>
+		
+		<div class = "contactinfo">
+			<div class = "contact1">
+				Numéro de téléphone: +1-418-227-6939 <br>
+				Adresse: 1270 Boulevard Dionne, bureau. <br>
+				220, St-Georges (QC) G5Y 3V5
+			</div>
+			<div class = "contact2">
+				<img class = "CICC" src= "CICC_Logo.png">
+				<div> <a href = "https://college-ic.ca/find-a-professional/"> Atieh Bahrami, Vérifié par CCIC </a> </div>
+			</div>
+		</div>
+		
+		<label class = "designer"> © Designed by Abdorrahim Bahrami </label>
+
+		<script src="HomeCode.js"></script>
+	</body>
+	
+</html>

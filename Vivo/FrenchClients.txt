@@ -1,0 +1,60 @@
+--------------------------------------------------------------------------------------------------------------------
+Prénom: Jane
+Nom: Miraj
+Nationalité/pays de résidence: 
+Âge: 
+Adresse courriel (email): 
+Niveau du dernier diplôme obtenu: 
+État matrimonial actuel: 
+  <option value="single">Célibataire</option>
+  <option value="commonlaw">Conjoint(e) de fait</option>
+  <option value="married">Marié(e)</option>
+  <option value="separated">Séparé(e)</option>
+  <option value="divorced">Divorcé(e)</option>
+
+Avez-vous des enfants qui vous accompagneront au Canada (moins de 22 ans)? Non
+Niveau de connaissance linguistique (Anglais): Pas de tout
+Niveau de connaissance linguistique (Français): Pas de tout
+Avez-vous déjà passé un test d’anglais et/ou de français (au cours des 2 dernières années)? Non
+Emploi (une expérience de travail rémunéré au cours des 10 dernières années)? Qui
+Titre actuel d'emploi: 
+Avez-vous déjà commis, été arrêté, accusé, ou reconnu coupable d’une infraction pénale quelconque dans un pays ou territoire?  Non
+Avez-vous ou votre conjoint déjà eu un problème de santé grave?  Non
+Avez-vous déjà fait une demande pour entrer ou demeurer au Canada (visiter, travailler, étudier)?  Non
+Possédez-vous une offre d’emploi signée par un employeur canadien?  Non
+--------------------------------------------------------------------------------------------------------------------
+Prénom: Jane
+Nom: Miriam
+Nationalité/pays de résidence: Germany
+Âge: 30
+Adresse courriel (email): miharalbert@gmail.com
+Niveau du dernier diplôme obtenu: 
+État matrimonial actuel: Célibataire
+Avez-vous des enfants qui vous accompagneront au Canada (moins de 22 ans)? Non
+Niveau de connaissance linguistique (Anglais): Pas de tout
+Niveau de connaissance linguistique (Français): Pas de tout
+Avez-vous déjà passé un test d’anglais et/ou de français (au cours des 2 dernières années)? Non
+Emploi (une expérience de travail rémunéré au cours des 10 dernières années)? Qui
+Titre actuel d'emploi: 
+Avez-vous déjà commis, été arrêté, accusé, ou reconnu coupable d’une infraction pénale quelconque dans un pays ou territoire?  Non
+Avez-vous ou votre conjoint déjà eu un problème de santé grave?  Non
+Avez-vous déjà fait une demande pour entrer ou demeurer au Canada (visiter, travailler, étudier)?  Qui
+Possédez-vous une offre d’emploi signée par un employeur canadien?  Non
+--------------------------------------------------------------------------------------------------------------------
+Prénom: Jane
+Nom: Miriam
+Nationalité/pays de résidence: 
+Âge: 
+Adresse courriel (email): 
+Niveau du dernier diplôme obtenu: 
+État matrimonial actuel: Célibataire
+Avez-vous des enfants qui vous accompagneront au Canada (moins de 22 ans)? Non
+Niveau de connaissance linguistique (Anglais): Pas de tout
+Niveau de connaissance linguistique (Français): Pas de tout
+Avez-vous déjà passé un test d’anglais et/ou de français (au cours des 2 dernières années)? Non
+Emploi (une expérience de travail rémunéré au cours des 10 dernières années)? Qui
+Titre actuel d'emploi: 
+Avez-vous déjà commis, été arrêté, accusé, ou reconnu coupable d’une infraction pénale quelconque dans un pays ou territoire?  Non
+Avez-vous ou votre conjoint déjà eu un problème de santé grave?  Non
+Avez-vous déjà fait une demande pour entrer ou demeurer au Canada (visiter, travailler, étudier)?  Non
+Possédez-vous une offre d’emploi signée par un employeur canadien?  Non

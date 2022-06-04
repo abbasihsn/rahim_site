@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> Vivo Canada </title>
+	<link rel="stylesheet" href="/fr/ServicesPRStyle.css">
+</head>
+<body>
+
+<div class = "language">
+	<label text-align = "right"> Français </label>
+	<input text-align = "right" type="radio" id="French" name="language_select" value="Yes" onchange = "changeLanguage();" checked>
+	<label text-align = "right" > English </label>
+	<input text-align = "right" type="radio" id="English" name="language_select" value="No" onchange = "changeLanguage();">
+</div>
+<br>
+
+<div id = "main_menu">
+	<nav>
+		<ul>
+			<li> <a href = "/fr"> Accueil </a> </li>
+				<li> <a href = "/fr/permanent_residency"> Service </a>
+					<ul>
+						<li> <a href = "/fr/temporary_entry"> Résidence temporaire </a> </li>
+						<li> <a href = "/fr/permanent_residency"> Residence Permanente </a> </li>
+					</ul>
+				</li>
+			<li> <a href = "/fr/assessment"> Remplir le formulaire d’évaluation </a> </li>
+			<li> <a href = "/fr/about"> À propos de nous </a> </li>
+		</ul>
+	</nav>
+</div>
+
+<img class = "Spr" src= "ServicesPR.jpg">
+
+<div class = "main_info">
+	<h1> Résidence Permanente </h1>
+		<div class = temp_ent>
+			Immigrer dans un nouveau pays peut prendre plusieurs mois de planification, de recherche, d'arrangement et de préparation.
+			ViVo Canada Services d’Immigration vous aidera à décider le meilleur chemin en vous guidant dans le choix du programme qui vous convient le mieux.
+		</div>
+
+		<a class = "assess" href="/fr/assessment"> Remplir le formulaire d’évaluation </a>
+
+		<div>
+			<h2> Entrée Express </h2>
+			<div class = "v_visa">
+				Êtes-vous un travailleur qualifié? Vous pourriez être qualifié pour l’Entrée expresse. 
+				Vous avez besoin de maximiser le nombre de points possibles dans le système de classement global (SCG) afin d’augmenter vos chances de recevoir une lettre d’invitation.
+				Voulez-vous savoir si vous êtes admissible à au moins un (1) programme visé par l’Entrée expresse? Remplissez notre le formulaire d’évaluation.
+			</div>
+		</div>
+
+		<div>
+			<h2> Parrainage d’un membre de famille </h2>
+			<div class = "v_visa">
+				Les citoyens canadiens ou les résidents permanents du Canada pourraient être admissibles à parrainer certains membres de leur famille pour devenir résidents permanents du Canada. 
+			</div>
+		</div>
+
+		<div>
+			<h2> Gens d’affaire </h2>
+			<div class = "v_visa">
+				Vous êtes un travailleur autonome, un entrepreneur ou un investisseur, désirez immigrer au Canada et y faire des affaires, démarrer une entreprise, créer des emplois ou d'apporter une contribution significative
+				à la vie culturelle ou sportive du Canada, ViVo Canada Services d’Immigration vous aide à concrétiser votre projet. <br>
+				Nous sommes également spécialisés dans les programmes d'immigration d'affaires au Québec.
+				Vous êtes un entrepreneur et vous voulez présenter votre demande sous la forme d'un plan d'affaires, ViVo Canada Services d’Immigration vous assiste à rédiger votre plan d'affaires.
+			</div>
+		</div>
+		<a class = "assess" href="/fr/assessment"> Remplir le formulaire d’évaluation </a>
+</div>
+
+<div class = "image_container">
+	<br>
+	<br>
+	<img class = "line_image" src = "Services2.jpg">
+</div>
+
+<br>
+<br>
+
+<div class = "contactinfo">
+	<div class = "contact1">
+		Numéro de téléphone: +1-418-227-6939 <br>
+		Adresse: 1270 Boulevard Dionne, bureau. <br>
+		220, St-Georges (QC) G5Y 3V5
+	</div>
+	<div class = "contact2">
+		<img class = "CICC" src= "CICC_Logo.png">
+		<div> <a href = "https://college-ic.ca/find-a-professional/"> Atieh Bahrami, Vérifié par CCIC </a> </div>
+	</div>
+</div>
+
+<label class = "designer"> © Designed by Abdorrahim Bahrami </label>
+
+<script>
+
+function changeLanguage()
+{
+	if (document.getElementById("English").checked)
+	{
+		location.replace("/en/permanent_residency")
+	}
+	else if (document.getElementById("French").checked)
+	{
+		location.replace("/fr/permanent_residency")
+	}
+}
+
+</script>
+
+</body>
+
+</html>

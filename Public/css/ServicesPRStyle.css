@@ -1,0 +1,154 @@
+.Spr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 550px;
+}
+
+h1.toptitle {
+    text-align: center;
+    margin: 0px auto;
+    display; block;
+}
+
+div.v_visa {
+	text-align: justify;
+	font-size: 20px;
+	font-family: Century Gothic;
+}
+
+div.temp_ent {
+	text-align: justify;
+	font-size: 20px;
+	font-family: Century Gothic;
+}
+
+a.assess {
+	font-size: 18px;
+	font-family: Century Gothic;
+}
+
+div.language {
+	float: right;
+}
+
+#main_menu nav {
+	width: 100%;
+	height: 50px;
+	background-color: lightgreen;
+	font-family: Century Gothic;
+}
+
+#main_menu ul li {
+	list-style: none;
+	display: inline-block;
+	line-height: 50px;
+	position: relative;
+	font-family: Century Gothic;
+}
+
+#main_menu ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 20px;
+	font-family: Century Gothic;
+}
+
+#main_menu ul li a:hover{
+	text-decoration: underline;
+	background: lime;
+}
+
+#main_menu ul li:hover ul {
+	display: block;
+	position: absolute;
+	background-color: lightgreen;
+	border-radius: 0px 0px 5px 5px;
+}
+
+#main_menu ul li ul {
+	display: none;
+	position: absolute;
+	background-color: lightgreen;
+	border-radius: 0px 0px 5px 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-family: Century Gothic;
+}
+
+#main_menu ul li ul li{
+	width: 270px;
+	border-radius: 5px;
+	font-family: Century Gothic;
+}
+
+#main_menu ul li ul li a{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: Century Gothic;
+}
+
+.contactinfo {
+	display: block;
+	margin-top: 40px;
+	width: 100%;
+	height: 200px;
+	background-color: skyblue;
+	font-family: Century Gothic;
+}
+
+div.contact1 {
+	display: inline-block;
+	width: 33%;
+	float: left;
+	margin-left: 25px;
+	font-size: 20px;
+	text-align: justify;
+	padding-top: 65px;
+	padding-bottom: 80px;
+	font-family: Century Gothic;
+}
+
+div.contact2 {
+	display: inline-block;
+	width: 33%;
+	margin-left: 25px;
+	font-size: 20px;
+	text-align: justify;
+	float: right;
+	text-align: center;
+	font-family: Century Gothic;
+}
+
+.CICC {
+	width: 80%;
+	height: 120px;
+}
+
+.main_info {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	height: 400px;
+	font-family: Century Gothic;
+}
+
+.image_container {
+	display: inline-block;
+	margin-left: 20px;
+	width: 48%;
+	height: 800px;
+}
+
+.line_image {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}

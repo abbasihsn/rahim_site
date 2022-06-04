@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> Vivo Canada </title>
+	<link rel="stylesheet" href="/en/ServicesPRStyle.css">
+</head>
+<body>
+
+<div class = "language">
+	<label text-align = "right"> Français </label>
+	<input text-align = "right" type="radio" id="French" name="language_select" value="Yes" onchange = "changeLanguage();">
+	<label text-align = "right" > English </label>
+	<input text-align = "right" type="radio" id="English" name="language_select" value="No" onchange = "changeLanguage();" checked>
+</div>
+<br>
+
+<div id = "main_menu">
+	<nav>
+		<ul>
+			<li> <a href = "/en"> Home </a> </li>
+				<li> <a href = "/en/permanent_residency"> Services </a>
+					<ul>
+						<li> <a href = "/en/temporary_entry"> Temporary Entry </a> </li>
+						<li> <a href = "/en/permanent_residency"> Permanent Residency </a> </li>
+					</ul>
+				</li>
+			<li> <a href = "/en/assessment"> Take a Free Assessment </a> </li>
+			<li> <a href = "/en/about"> About Us </a> </li>
+		</ul>
+	</nav>
+</div>
+
+<img class = "Spr" src= "ServicesPR.jpg">
+
+<div class = "main_info">
+	<h1> Permanent Residency </h1>
+	<div class = temp_ent>
+		Permanent immigration to a new country can take several months of planning, research, arrangement, preparation, and indeed it is a long journey.
+		ViVo Canada Immigration Services can help you decide what is the best path for you by guiding you choosing the program that can best fit you.
+	</div>
+	<a class = "assess" href="/en/assessment"> Take a free statement </a>
+
+	<div>
+		<h2> Express Entry </h2>
+		<div class = "v_visa">
+			Are you a skilled, experienced worker with an English/French language test result? You might be qualified for entry into the Express Entry Pool. <br> 
+			You need to maximize the number of possible points in the Comprehensive Ranking System (CRS) to increase your chance of receiving an invitation to apply. <br> 
+			Do you want to know if this is the program for you? Take a free assessment.
+		</div>
+	</div>
+
+	<div>
+		<h2> Family Sponsorship </h2>
+		<div class = "v_visa">
+			Canadian citizens or permanent residents of Canada might be eligible to sponsor certain relatives to become a permanent resident of Canada. 
+		</div>	
+	</div>
+
+	<div>
+		<h2> Business Immigration </h2>
+		<div class = "v_visa">
+			You are a self-employed person, an entrepreneur or a business investor looking for immigrating to Canada, starting a business, creating jobs or make a significant 
+			contribution to the cultural or athletic life of Canada, ViVo Canada Immigration Services can help you plan for success. <br>
+			We are also specialized in Quebec business immigration programs.
+			You are an entrepreneur, and you need to present your application in form of a business plan, ViVo Canada Immigration Services can help you in writing a successful business plan.
+		</div>
+	</div>
+	<a class = "assess" href="/en/assessment"> Take a free statement </a>
+</div>
+
+<div class = "image_container">
+	<br>
+	<br>
+	<img class = "line_image" src = "Services1.jpg">
+</div>
+
+<br>
+<br>
+
+<div class = "contactinfo">
+	<div class = "contact1">
+		Phone Number: +1-418-227-6939 <br>
+		Address: 1270 Boulevard Dionne, bureau. <br>
+		220, St-Georges (QC) G5Y 3V5
+	</div>
+	<div class = "contact2">
+		<img class = "CICC" src= "CICC_Logo.png">
+		<div> <a href = "https://college-ic.ca/find-a-professional/"> Atieh Bahrami, Verified by CICC </a> </div>
+	</div>
+</div>
+
+<label class = "designer"> © Designed by Abdorrahim Bahrami </label>
+
+<script>
+
+function changeLanguage()
+{
+	if (document.getElementById("English").checked)
+	{
+		location.replace("/en/permanent_residency")
+	}
+	else if (document.getElementById("French").checked)
+	{
+		location.replace("/fr/permanent_residency")
+	}
+}
+
+</script>
+
+</body>
+
+</html>

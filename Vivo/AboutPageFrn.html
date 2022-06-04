@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> Vivo Canada </title>
+	<link rel="stylesheet" href="AboutStyle.css">
+</head>
+<body>
+
+<div class = "language">
+	<label text-align = "right"> Français </label>
+	<input text-align = "right" type="radio" id="French" name="language_select" value="Yes" onchange = "changeLanguage();" checked>
+	<label text-align = "right" > English </label>
+	<input text-align = "right" type="radio" id="English" name="language_select" value="No" onchange = "changeLanguage();">
+</div>
+<br>
+
+<div id = "main_menu">
+	<nav>
+		<ul>
+			<li> <a href = "/fr"> Accueil </a> </li>
+				<li> <a href = "/fr/about"> Service </a>
+					<ul>
+						<li> <a href = "/fr/temporary_entry"> Résidence temporaire </a> </li>
+						<li> <a href = "/fr/permanent_residency"> Residence Permanente </a> </li>
+					</ul>
+				</li>
+			<li> <a href = "/fr/assessment"> Remplir le formulaire d’évaluation </a> </li>
+			<li> <a href = "/fr/about"> À propos de nous </a> </li>
+		</ul>
+	</nav>
+</div>
+
+<img class = "logo" src= "VivoCanadaLogoFrn.jpg">
+<img class = "founder" src= "Atieh.png" width="25%">
+<!--
+<div class = "ceo1">
+	<br>
+	<br>
+	<div> <strong> Dr. Atieh Bahrami </strong> is the founder of Vivo Canada Immigration. She received her PhD in chemical engineering at Laval University.
+		  She moved to Canada in 2013. As an immigrant herself, she knows the problems and plights of immigration and she is happy to share her experience with
+		  you and helps you through out this journey.
+		  
+		  <div>
+			<h2> Contactez-nous </h2>
+			Numéro de téléphone: +1-418-227-6939 <br>
+			Adresse: 1270 Boulevard Dionne, bureau. 220, St-Georges (QC) G5Y 3V5
+		</div>
+	</div>
+</div>
+-->
+<div class = "ceo2">
+	<h2> À propos de nous </h2>
+	<div>
+		Chaque année, des milliers de personnes cherchent à s’installer au Canada, un pays des opportunités. Que vous recherchiez une entrée temporaire ou permanente, 
+		ViVo Canada services d’immigration vous aide tout au long de votre parcours. <br>
+		Notre fondatrice, Atieh Bahrami est une consultante réglementée en immigration canadienne (CRIC) et la membre du Collège des consultants en immigration et en citoyenneté (CICC).
+		Elle est également consultante règlementée en immigration inscrite au registre québécois des consultants en immigration.
+		Elle parle persan, anglais et français. <br>
+		Notre bureau principal est au Québec. Nous serions heureux de vous aider à présenter votre demande de visa aux autorités canadiennes.
+		Nous vous fournissons des services professionnels à chaque étape du processus et s'assure que vous choisissez le programme d'immigration qui vous convient le mieux.
+		N'hésitez pas à remplir notre formulaire d'évaluation ou à nous contacter pour prendre un rendez-vous.
+		<br>
+		<br>
+		<a class = "assess" href="/fr/assessment"> Remplir le formulaire d’évaluation </a>
+	</div>
+</div>
+
+<div class = "contactinfo">
+	<div class = "contact1">
+		Numéro de téléphone: +1-418-227-6939 <br>
+		Adresse: 1270 Boulevard Dionne, bureau. <br> 
+		220, St-Georges (QC) G5Y 3V5
+	</div>
+	<div class = "contact2">
+		<img class = "CICC" src= "CICC_Logo.png">
+		<div> <a href = "https://college-ic.ca/find-a-professional/"> Atieh Bahrami, Vérifié par CCIC </a> </div>
+	</div>
+</div>
+
+<label class = "designer"> © Designed by Abdorrahim Bahrami </label>
+
+<script>
+
+function changeLanguage()
+{
+	if (document.getElementById("English").checked)
+	{
+		location.replace("/en/about")
+	}
+	else if (document.getElementById("French").checked)
+	{
+		location.replace("/fr/about")
+	}
+}
+
+</script>
+
+</body>
+
+</html>
